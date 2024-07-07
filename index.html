@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corretoras de Imóveis</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="position-relative">
+        <img src="https://img10.naventcdn.com/home/RPHOMv4.152.0-RC2/images/dfp-venta.jpg" class="img-fluid w-100 header-image" alt="Imagem do cabeçalho">
+        <div class="overlay text-white text-center py-3 position-absolute w-50">
+            <h1>Corretoras de Imóveis</h1>
+            <nav>
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#properties">Propriedades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#contact">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="container mt-4">
+        <h2 class="text-center">Bem-vindo à Nossa Corretora</h2>
+        <p class="text-center">Oferecemos as melhores opções de imóveis para você.</p>
+
+        <!-- Formulário de Filtros -->
+        <form class="row justify-content-center mt-4">
+            <div class="form-group col-md-3">
+                <label for="city">Cidade ou Bairro</label>
+                <input type="text" class="form-control" id="city" placeholder="Digite a cidade ou bairro">
+            </div>
+            <div class="form-group col-md-2">
+                <label for="category">Categoria</label>
+                <select class="form-control" id="category">
+                    <option>Escolha...</option>
+                    <option>Casa</option>
+                    <option>Apartamento</option>
+                    <option>Comercial</option>
+                    <option>Terreno</option>
+                </select>
+            </div>
+            <div class="form-group col-md-2">
+                <label for="type">Modalidade</label>
+                <select class="form-control" id="type">
+                    <option>Escolha...</option>
+                    <option>Venda</option>
+                    <option>Aluguel</option>
+                </select>
+            </div>
+            <div class="form-group col-md-2">
+                <label for="price">Valor</label>
+                <input type="text" class="form-control" id="price" placeholder="Digite o valor">
+            </div>
+            <div class="form-group col-md-2 align-self-end">
+                <button type="submit" class="btn btn-primary btn-block">Buscar</button>
+            </div>
+        </form>
+    </section>
+
+    <section id="properties" class="container mt-4">
+        <h2 class="text-center">Nossas Propriedades</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="image/description.jpg" class="card-img-top" alt="Casa 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Casa 1</h5>
+                        <p class="card-text">Rua Exemplo, 123</p>
+                        <p class="card-text">Preço: R$ 500.000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/e9eb7fae675da1ab08c72d7821ce1166/description.jpg" class="card-img-top" alt="Casa 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Casa 2</h5>
+                        <p class="card-text">Av. Teste, 456</p>
+                        <p class="card-text">Preço: R$ 750.000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://resizedimgs.vivareal.com/crop/360x240/named.images.sp/fd551ee11ea48d6e7177fb16263b36e3/description.jpg" class="card-img-top" alt="Casa 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Casa 3</h5>
+                        <p class="card-text">Rua Demo, 789</p>
+                        <p class="card-text">Preço: R$ 1.000.000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container mt-4">
+        <h2 class="text-center">Contato</h2>
+        <p class="text-center">Entre em contato conosco para mais informações.</p>
+        <address class="text-center">
+            <p>Email: contato@corretora.com.br</p>
+            <p>Telefone: (11) 1234-5678</p>
+            <p>Endereço: Rua Principal, 123, São Paulo, SP</p>
+        </address>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3 mt-4">
+        <p>&copy; 2024 Corretoras de Imóveis. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
